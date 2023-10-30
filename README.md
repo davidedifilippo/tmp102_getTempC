@@ -14,11 +14,14 @@ Si dichiara un oggetto di tipo TMP102:
     TMP102 tmpSensor;
 
 ## Fase di setup
-
-    Serial.begin(9600); Si inizializza l'interfaccia asincrona per la comunicazione con il PC
-    Wire.begin(); //Si inizializza il modulo seriale sincrono I2C per la comunicazione con il sensore tmp102
+ Si inizializza l'interfaccia asincrona per la comunicazione con il PC:
+ 
+    Serial.begin(9600);
+    
+//Si inizializza il modulo seriale sincrono I2C per la comunicazione con il sensore tmp102:
 
      /*It will return true on success or false on failure to communicate. */
+    Wire.begin(); 
 
 Si interroga il sensore per vedere se risponde all'indirizzo 0X48:
      
