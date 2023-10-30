@@ -20,7 +20,6 @@ Si dichiara un oggetto di tipo TMP102:
     
 //Si inizializza il modulo seriale sincrono I2C per la comunicazione con il sensore tmp102:
 
-     /*It will return true on success or false on failure to communicate. */
     Wire.begin(); 
 
 Si interroga il sensore per vedere se risponde all'indirizzo 0X48:
