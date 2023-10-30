@@ -2,7 +2,7 @@
 
 Guida all'interrogazione del sensore attraverso la libreria sparkfun ufficiale:
 
-[I'm an inline-style link with title](https://github.com/sparkfun/SparkFun_TMP102_Arduino_Library)
+[Libreria sparkfun ufficiale](https://github.com/sparkfun/SparkFun_TMP102_Arduino_Library)
 
 ## Inclusione della libreria
 
